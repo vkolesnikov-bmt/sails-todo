@@ -1,0 +1,28 @@
+{
+  "name": "todos",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "include-all": "^1.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.14",
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.12.2"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k1onix/todos.git"
+  },
+  "author": "k1onix",
+  "license": ""
+}
